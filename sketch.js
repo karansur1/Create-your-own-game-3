@@ -245,7 +245,7 @@ function meteorSpawn(){
     meteor.velocityX = random(-5,-13)
     meteor.velocityY=random(-3,6)
     meteorGroup.add(meteor);
-    meteor.debug = true
+    
     meteor.setCollider("rectangle",0,0,400,200)
   }
 }
